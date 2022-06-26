@@ -1,0 +1,83 @@
+/* 项目一样 样式都放在style.css*/
+.app-wrap {
+    padding: 0.8rem;
+}
+.app-wrap .nodata {
+    width:100%;
+   margin:2rem auto;
+   text-align: center;
+}
+.app-wrap .nodata p {
+    margin-top:2rem;
+    color:#dee1e6;
+    font-weight: 600;
+}
+.app-title {
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+    height: 2rem;
+    font-weight: 600;
+    line-height:2rem;
+    text-indent: 1rem;
+    margin-top: 0.6rem;
+    color:#666
+}
+.Input {
+    position: relative;
+    top:-1rem;
+}
+.input-wrap {
+    display: flex;
+}
+.list-wrap {
+    width: 100%;
+    margin-top: 0.6rem;
+    min-height: 16.675rem;
+}
+.list-item {
+    cursor: pointer;
+    padding: 0.2rem;
+    margin-bottom: 0.4rem;
+}
+.list-item-wrap {
+    width: 100%;
+    padding-right:0.6rem;
+    display: flex;
+    align-items: center;
+}
+.list-item_finished {
+    /* text-decoration: line-through; */
+}
+.list-item-text {
+    font-size: 0.8rem;
+}
+.event-list {
+    display: flex;
+}
+.event-list span {
+    flex:1
+}
+.event-list  img {
+    width:7.5rem;
+    height:9rem;
+    border-radius: 10%;
+}
+.desc {
+    margin: 0.25rem 0.25rem;
+    position: relative;
+}
+.desc .text {
+    font-size:0.8rem;
+    font-weight: 600;
+}
+.desc .detail{
+    font-size:0.7rem;
+    margin-top: 0.4rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.desc .price {
+    position: absolute;
+    font-size:0.7rem;
+    bottom: 0;
+}
