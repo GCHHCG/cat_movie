@@ -1,0 +1,28 @@
+.tabar {
+    position: relative;
+    top:3rem;
+    color:whitesmoke;
+}
+.content {
+    height:3rem;
+    color: black;
+}
+.card-body {
+    background-color: #fff;
+    width: 16.875rem;
+    height: 8.6rem;
+    overflow:hidden;
+    padding-top: 0.2rem;
+    margin: 0.5rem auto 0;
+    border-radius:10%;
+    font-size: 0.8rem;
+    border:1px solid #e5e5e5;
+}
+.card-body .title {
+    font-size:0.9rem;
+    margin-right:7rem;
+}
+.card-body .desc {
+    font-weight: 500;
+    font-size: 0.75rem;
+}
